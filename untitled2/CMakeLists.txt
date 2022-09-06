@@ -3,7 +3,7 @@ project(untitled2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled2 main.cpp)
+add_executable(untitled2 main.cpp getName.cpp getName.h)
 
 add_subdirectory(module1)
 add_subdirectory(module2)
